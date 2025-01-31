@@ -1,0 +1,63 @@
+/* Desafio 2: Footer */
+
+.disclaimer-premium {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(45deg, #fc03a5, #0088ff, #22fc00);
+    background-size: 300% 300%;
+    animation: gradientAnimation 6s ease infinite;
+}
+
+.disclaimer-premium .text {
+    flex-shrink: 0;
+    color: #fff;
+}
+
+.disclaimer-premium .text .disclaimer-premium__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.disclaimer-premium .text .disclaimer-premium__subtitle {
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.disclaimer-premium button {
+    background-color: #fff;
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    flex-shrink: 0;
+    /* transition: transform 0.5s ease-in-out; */
+}
+
+.disclaimer-premium button:hover {
+    opacity: 0.8;
+    /* transform: scale(1.1); */
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
