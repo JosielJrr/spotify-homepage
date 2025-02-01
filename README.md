@@ -3,7 +3,7 @@
 Este projeto foi desenvolvido durante a **2ª edição da imersão Front-End da [Alura](https://www.alura.com.br/?srsltid=AfmBOorFKMXxXyiaLOD7mY6jsLzXksRHcAAA5TN4ismZd7wdULvTT3U5)** e simula a **homepage do Spotify**, proporcionando uma interface semelhante à plataforma de streaming de música.
 
 <div align="center">
-  <img src="./src/assets/spotify-homepage-img.png" alt="Interface da Aplicação" width=600px>
+  <img src="./src/assets/spotify-homepage-img.png" alt="Interface da Aplicação" width=1100px>
 </div>
 
 ## Tecnologias Utilizadas
